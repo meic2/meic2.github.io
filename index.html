@@ -1,75 +1,200 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="main.css" />
-	<title>Mei Chen's Profile</title>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Personale Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="applijegleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<script src="js/jquery-1.11.1.min.js"></script>
+<!--webfonts-->
+<link href='http://fonts.useso.com/css?family=Candal|Raleway:500,600,400' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
 </head>
-<header>
-	<nav>
-		<h1>Can't Miss My Shot!</h1>
-		<ul>
-			<li> <a>Home </a></li>
-			<li><a href="page2.html"> page2</a></li>
-			<li><a href="page3.html"> page3</a></li>
-		</ul>
-	</nav>
-</header>
 <body>
+<!--start-home-->
+					
+		<div class="banner" id="home">
+			<div class="header-top">
+				<div class="container">	
+					<!--top-nav-->
+					<span class="menu"> </span>
+					<div class="top-menu">
+						<nav>
+							<ul class="cl-effect-16">
+								<li><a class="active scroll" href="#home" data-hover="Home">Home</a></li>
+								<li><a class="scroll" href="#about" data-hover="About">About</a></li>
+								
+								<li><a class="scroll" href="#skill" data-hover="Skills">Skills</a></li>
+								<li><a class="scroll" href="#project" data-hover="Projects">Projects</a></li>
+								
+								<li><a class="scroll" href="#contact" data-hover="Contact">Contact</a></li>
+								<div class="clearfix"></div>
+							</ul>
+						</nav>		
+					</div>
+					
 
-	<h1  style="font-family: Calibri; background-color: dodgerblue; color: white;"
-		title="yes I like musicals lol">Can't Miss My Shot!</h1>
+				<!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+								<!-- script-for-menu -->
 
-	<h3>Can't Miss My Shot!</h3>
-	<h4>Can't Miss My Shot!</h4>
-	<h5>Can't Miss My Shot!</h5>
-	<h6>Can't Miss My Shot!</h6>
-
-	<p style="background-color:rgba(255, 99, 71, 0.8); color: white; text-align: center;">
-		I'm <abbr title="Pronounce as same as May"><b>Mei</b></abbr>, currently a Freshman at UofI.
-
-		<br>my major is: <a href="https://stat.illinois.edu/">Statistics</a>
-	</p>
-
-
-	<div>
-		<p style="font-family: Times New Roman", Times, serif;> 
-			Motto: <q>ll mio mare, ma che bel futuro.</q>
-		</p>
-
-		<h3>Booklist</h3>
-		
-		<p>
-			“The world is stable now,” states the Controller in Aldous Huxley’s Brave New World, asserting how peaceful and perfect society is under his control. When I first read this line, it struck a deep chord in me; since childhood, I’ve been obsessed with the concept of Utopia. Born in a country that has controversial politics, I’ve seen thousands of online voices debating questions such as “How can we construct a better society?” and “What is a perfect, or just, society like?” Though these inquiries frequently arise, I’ve heard no convincing answers. In my history textbook, I saw how Laozi says that a small state with a small population can satisfy every citizen’s needs; yet, on the next page, Plato fiercely argues that only the most knowledgeable and righteous philosophers called “philosophy kings” can guide the polis toward perfection. Thousands of people have thousands of ideas, but after reading Brave New World — which quickly became my favorite novel — I’ve decided to vigorously search for my own perfect society.
-		</p>
-
+				 <div class="clearfix"></div>
+			<!-- script-for-menu -->
+		    </div>
+		  </div>
+		<!--banner-->	
+		<div class="container">	
+		      <!-- script-for-menu -->	  	 
+				  <div class="banner-info">	
+						 <div class="logo">
+							  <a href="index1.html"><h1>Me. </h1></a>
+						  </div>
+						<p> Can't miss my shots!<lable> Freshman at University of Illinois, Urbana-Champaign.</lable> holding myself to an extreme.</p>
+						<div class="scroll-down">
+						 <h4>SCROLL DOWN</h4>
+						<a class="downarrow scroll" href="#about"><span></span></a>
+						</div>
+				  </div>
+			</div>
+		</div>
+	<!--about-->
+	<div class="about" id="about">
+	   <div class="container">
+	   <h3 class="tittle">About Me</h3>
+	      <div class="col-md-5 ab-grid pic">
+		  <img src="images/@japan.jpg" alt=" " title="at Japan">
+		  </div>
+		  <div class="col-md-7 ab-grid text">
+		    <h4>I am Mei, studying at U of I at Champaign. Student, Dreamer, and fighter.</h4>
+			<p>My motto is always: "ll mio mare, ma che bel futuro." - and ocean ahead, and what a bright and beautiful future.</p>
+			<p>Love musicals, try to be profession at my field. Ambitious to be a data analyst (maybe?).</p>
+			 
+		  </div>
+		  <div class="clearfix"> </div>
+	   </div>
+    </div>	   
+	<!--//about-->
+	<!--experience-starts-->
+	<div class="experience" id="experience">
+		<div class="container">
+				<h3 class="tittle four">Education & Experience</h3>
+				<div class="experience-main">
+					<span class="devide-line"></span>
+					<div class="experience-left">
+						<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+						<h4>Hangzhou No.2 High School</h4>
+						<h5>Highschool [2013 - 2016 ]</h5>
+						<p> Athletes of class, attended <i> China Think Big Program </i>, <i>Asian Regional Spcae Settlement Design Competition</i>, etc. </p>
+					</div>
+					<div class="experience-left-snd">
+						<span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+					</div>
+					<div class="experience-right-snd">
+						<h4>University of Illinois, Urbana Champaign</h4>
+						<h5>[ 2017-  ]</h5>
+						<p>Major in  <a href="https://stat.illinois.edu/">Statistics</a>, paln to transfer to Stats & CS major.</p>
+					</div>
+					
+					<div class="clearfix"> </div>
+				</div>
+		</div>
 	</div>
-	
+	<!--experience-end-->
 
-	<hr>
+<!--my-skill-->
+  <div class="my-skills text-center" id="skill">
+	<div class="container">
+		<h3 class="tittle">My Skills</h3>
+		<div class="skill-grids">
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-1"></div>
+						<p>Rhinoceros</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-2"></div>
+						<p>Premier</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-3"></div>
+						<p>Java</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-4"></div>
+						<p>Photoshop</p>
+					</div>
+					<div class="col-md-2 skills-grid text-center">
+						<div class="circle" id="circles-5"></div>
+						<p>Offices Software</p>
+					</div>
+					<div class="clearfix"> </div>
+				 <script type="text/javascript" src="js/circles.js"></script>
+					         <script>
+								var colors = [['#f6608a', '#ffffff'], ['#f6608a', '#ffffff'], ['#f6608a', '#ffffff'], ['#f6608a', '#ffffff'], ['#f6608a', '#ffffff'], ['#f6608a', '#ffffff']
+									];
+										
+								for (var i = 1; i <= 5; i++) {
+									var child = document.getElementById('circles-' + i),
+										percentage = 20 + (i * 10);
+										
+									Circles.create({
+										id:         child.id,
+										percentage: percentage,
+										radius:     80,
+										width:      10,
+										number:   	percentage / 1,
+										text:       '%',
+										colors:     colors[i - 1]
+									});
+								}
+						
+				</script>
+		</div>
+	</div>	
+</div>
+<!--//my-skill-->
+<!--start-contact-->
 
-	<!--a photo of CM-->
+		   <div class="contact" id="contact">
+		         <div class="col-md-6 contact-top">
+				     	<div class="point"> <i class="glyphicon glyphicon-map-marker"></i></div>
+					  <h3 class="tittle two">Find Me</h3>
+				      <h4>For Any questions, Please feel free to Contact me by mail.</h4>
+					     <div class="contact-ad">
+								<p>Address: Rm 1313 419 E CHalmers St. Champaign, IL, 61820<p>
+								<p>Phone: 12179044780.<p>
+								<p>E-mail :<a href="mailto:info@example.com">meic2@illinois.edu</a></p>
 
-	<img src="@japan.jpg" alt="Me @ Kyoto, japan!" width="208" height="284">
 
-	<cite>The photo is shot at Kyoto Japan, summer of 2017</cite>
+					     </div>
+			      </div>
+					<div class="clearfix"> </div>
+	       </div>
+	<!--//contact-->
 
-	<hr>
 
-	<p title = "plz don't" > If you have any quesiton, please don't hesitate to contact me:)</p>
 
-	<pre>
-				Born at Quzhou; 
-				Live at Hangzhou; 
-				Learn at Champaign.
-			</pre>
 
-	<address>
-		<p>Rm 1313 Illini Tower, 409 E Chalmers St. Champaign IL 61820 
-		<br>Email: meic2@illinois.edu
-		<br>Tel: (1)2179044780</p>
-	</address>
-
-		
 
 </body>
 </html>
